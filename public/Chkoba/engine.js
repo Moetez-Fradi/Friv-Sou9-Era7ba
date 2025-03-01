@@ -328,6 +328,8 @@ export function BestMove(state){
 
     let S = {Bot, playerExpectedHand, Table, remaining, Mekelti, Mekeltek, chkeybi, chkeybek, turn};
 
+    console.log(evaluateState(S));
+    
     let initialState = new stateNode(S, null);
 
     recursiveCreateTree(initialState);

@@ -20,7 +20,7 @@ The **evaluation score** is printed in the console — feel free to check it, th
 
 Besides the advanced logic, special care was given to **animations** and **design**, making the game visually appealing.
 
-![chkoba](./ScreenShots/Chkoba.png)
+![chkoba](./ScreenShots/chkoba.png)
 
 ---
 

@@ -13,7 +13,7 @@ The engine is built around **seven core functions**:
 - **nextState(state, move)**: Takes the current state and a legal move, returning the resulting new state.
 - **evalState(state)**: Evaluates the state and returns a float representing the expected score difference between the two players. The function uses **hypergeometric probability distribution** to estimate the odds of reaching a specific objective.
 - **recursiveCreateTree(state, depth)**: Generates a tree of possible game outcomes starting from the initial state.
-- **minimax(state, depth, isMaximizing)**: Recursively searches for the best score. It minimizes the evaluation during the bot's turn and maximizes it during the player's turn.
+- **minimax(state, depth, isMaximizing)**: Recursively searches for the best score. It minimizes the evaluation during the bot's turn and maximizes it during the player's turn. No alpha-beta-pruning since the depth is only 3.
 - **botBestMove(state)**: Returns the best possible move for the bot by selecting the move with the lowest evaluation score (most favorable for the bot).
 
 The **evaluation score** is printed in the console — feel free to check it, though it won't give you much of an advantage 😉.

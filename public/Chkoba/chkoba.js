@@ -90,7 +90,7 @@ function botTurn(x) {
             lastToTake = -1;
 
             if (onTable.length === 0) {
-                if (pile.length === 0 && myPile.length > 1 ){
+                if ((pile.length != 0) || (pile.length === 0 && myPile.length > 1 )){
                     setTimeout(() => {
                       alert("CHKOBA! chakeb 3lik lbot ye bot!");
                       myCkeyeb += 1;
